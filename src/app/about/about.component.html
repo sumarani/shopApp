@@ -1,0 +1,4 @@
+<button (click)="toggleView()">{{isPersonal? 'Personal' : 'Professional'}}</button>
+
+<app-personal *ngIf="isPersonal"></app-personal>
+<app-professional *ngIf="!isPersonal"></app-professional>
