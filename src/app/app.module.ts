@@ -6,6 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { PersonalComponent } from './personal/personal.component';
 import { ProfessionalComponent } from './professional/professional.component';
 import { SearchComponent } from './search/search.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SearchComponent } from './search/search.component';
     AboutComponent,
     PersonalComponent,
     ProfessionalComponent,
-    SearchComponent
+    SearchComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule
